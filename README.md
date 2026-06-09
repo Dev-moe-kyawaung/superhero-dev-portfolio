@@ -9,7 +9,7 @@ This portfolio is deployed automatically to GitHub Pages using GitHub Actions.
 
 [![Deploy Status](https://github.com/Dev-Moekyawaung/superhero_dev_portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/Dev-Moe-kyawaung/superhero_dev_portfolio/actions/workflows/deploy.yml)
 
-# Superhero Android Senior Developer V3
+# Superhero dev portfolio
 
 [![Deploy Status](https://github.com/YOUR_GITHUB_USERNAME/superhero_android_developer_v3/actions/workflows/deploy.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/superhero_android_developer_v3/actions/workflows/deploy.yml)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Deploy-blue?logo=github)](https://YOUR_GITHUB_USERNAME.github.io/superhero_android_developer_v3/)
@@ -37,8 +37,8 @@ Built to showcase flagship Android projects, measurable impact, technical depth,
 
 ## Live Site
 
-- **Portfolio:** `https://YOUR_GITHUB_USERNAME.github.io/superhero_android_developer_v3/`
-- **Repository:** `https://github.com/YOUR_GITHUB_USERNAME/superhero_android_developer_v3`
+- **Portfolio:** `https://Dev-Moe-kyawaung.github.io/superhero-dev-portlofio/`
+- **Repository:** `(https://Dev-Moe-kyawaung.github.io/superhero-dev-portlofio/)`
 
 ---
 
@@ -117,7 +117,29 @@ assets/
   workflows/
 
 ```bash
-/superhero_dev_portfolio/
+/superhero-dev-portfolio/
 
 So the workflow uses:
-flutter build web --release --base-href "/superhero_dev_portfolio/"
+flutter build web --release --base-href "/superhero-dev-portfolio/"
+
+
+Setup
+1. Clone the repository
+git clone https://github.com/Dev-Moe-kyawaung/superhero-dev-portlofio.git
+cd superhero-dev-portlofio
+2. Install dependencies
+flutter pub get
+3. Add assets
+Put your screenshots here:
+assets/screenshots/
+Put your profile or branding images here:
+assets/images/
+4. Update project data
+Edit:
+lib/data/sample_projects.dart
+Replace placeholder links, screenshots, and metrics with your real project data.
+5. Run locally
+flutter run -d chrome
+Build for Web
+flutter build web --release --base-href "/superhero_android_developer_v3/"
+
