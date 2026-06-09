@@ -1,4 +1,4 @@
-name: Deploy Superhero Android Senior Developer V3
+name: Deploy Superhero-dev-portfolio
 
 on:
   push:
@@ -41,7 +41,7 @@ jobs:
         continue-on-error: true
 
       - name: Build web
-        run: flutter build web --release --base-href "/superhero_android_developer_v3/"
+        run: flutter build web --release --base-href "/superhero_dev_portfolio/"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
