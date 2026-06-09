@@ -1,5 +1,8 @@
-## Deployment
 
+[![Deploy Status](https://github.com/YOUR_GITHUB_USERNAME/superhero_android_developer_v3/actions/workflows/deploy.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/superhero_android_developer_v3/actions/workflows/deploy.yml)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Deploy-blue?logo=github)](https://YOUR_GITHUB_USERNAME.github.io/superhero_android_developer_v3/)
+[![Flutter](https://img.shields.io/badge/Flutter-3.3%2B-02569B?logo=flutter)](https://flutter.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 This portfolio is deployed automatically to GitHub Pages using GitHub Actions.
 
 ### Status badge
@@ -26,3 +29,6 @@ This repository is served from:
 
 ```bash
 /superhero_dev_portfolio/
+
+So the workflow uses:
+flutter build web --release --base-href "/superhero_android_developer_v3/"
