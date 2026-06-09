@@ -17,7 +17,7 @@ class AppTheme {
         secondary: secondary,
         surface: surface,
       ),
-      cardTheme: CardTheme(
+      cardThemeData: CardThemeData(
         color: surface,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       ),
