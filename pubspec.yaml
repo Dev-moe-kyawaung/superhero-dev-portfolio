@@ -18,6 +18,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
+assets:
     - assets/images/
-    - assets/screenshots/
+    # Remove the line below if you don't need it yet
+    # - assets/screenshots/
